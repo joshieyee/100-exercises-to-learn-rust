@@ -1,6 +1,11 @@
 /// Return `true` if `n` is even, `false` otherwise.
 fn is_even(n: u32) -> bool {
-    todo!()
+    let x:u32 = n % 2;
+    if x == 0 {
+        return true
+    } else {
+        return false
+    }
 }
 
 #[cfg(test)]
